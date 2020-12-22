@@ -41,6 +41,14 @@ while (numeriGiocatore.length < 5) {
 }
 console.log(numeriGiocatore);
 
+// (3) Terzo Step
+var partita = 'numero consentito';
+
+if (numeriGiocatore[numeroUtente] == numeriRandomCpu[numeroComputer]) {
+  partita = 'numero vietato';
+}
+
+  console.log(partita);
 
 
 
