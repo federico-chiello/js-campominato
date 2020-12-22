@@ -7,6 +7,14 @@
 // (4) Al termine della partita il software deve comunicare il punteggio, cioè il numero di volte che l’utente ha inserito un numero consentito.
 
 
+// (1) Step 1
+var numeroComputer = generaRandom(1, 100)
+console.log(numeroComputer);
+
+function generaRandom(min, max){
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+
 
 
 
