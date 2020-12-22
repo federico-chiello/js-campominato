@@ -7,7 +7,7 @@
 // (4) Al termine della partita il software deve comunicare il punteggio, cioè il numero di volte che l’utente ha inserito un numero consentito.
 
 
-// (1) Step 1
+// (1) Primo Step
 // variabili
 var numeriRandomCpu = [];
 
@@ -25,6 +25,23 @@ console.log(numeriRandomCpu);
 function generaRandom(min, max){
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
+
+// (2) Secondo Step
+// variabile
+var numeriGiocatore = [];
+
+// condizione
+while (numeriGiocatore.length < 5) {
+  var numeroUtente = parseInt(prompt('Inserisci un numero:'));
+  if (numeriGiocatore.includes(numeroUtente) == false) {
+    numeriGiocatore.push(numeroUtente);
+  }
+}
+console.log(numeriGiocatore);
+
+
+
+
 
 
 
