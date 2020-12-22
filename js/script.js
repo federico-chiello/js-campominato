@@ -8,9 +8,20 @@
 
 
 // (1) Step 1
-var numeroComputer = generaRandom(1, 100)
-console.log(numeroComputer);
+// variabili
+var numeriRandomCpu = [];
 
+// condizione
+while (numeriRandomCpu.length < 16) {
+  var numeroComputer = generaRandom(1, 100);
+  if (numeriRandomCpu.includes(numeroComputer) == false){
+    numeriRandomCpu.push(numeroComputer);
+  }
+}
+
+console.log(numeriRandomCpu);
+
+// Funzione
 function generaRandom(min, max){
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
