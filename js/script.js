@@ -29,15 +29,13 @@ function generaRandom(min, max){
 // (2) Secondo Step
 // variabile
 var numeriGiocatore = [];
-var sentinella = true;
 
 // condizione
-while (numeriGiocatore.length < 5 && sentinella == true) {
+while (numeriGiocatore.length < 5) {
   var numeroUtente = parseInt(prompt('Inserisci un numero:'));
   if (numeriGiocatore.includes(numeroUtente) == false) {
     numeriGiocatore.push(numeroUtente);
   } else {
-    sentinella = false;
     alert('Inserisci un numero diverso da quelli già inseriti:');
   }
 }
