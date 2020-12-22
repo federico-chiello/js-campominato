@@ -48,7 +48,7 @@ if (numeriGiocatore[numeroUtente] == numeriRandomCpu[numeroComputer]) {
   partita = 'numero vietato';
 }
 
-  console.log(partita);
+console.log(partita);
 
 
 
