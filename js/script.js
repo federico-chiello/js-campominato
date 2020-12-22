@@ -38,7 +38,7 @@ while (numeriGiocatore.length < 5 && sentinella == true) {
     numeriGiocatore.push(numeroUtente);
   } else {
     sentinella = false;
-    numeroUtente = parseInt(prompt('Inserisci un numero diverso da quelli già inseriti:'));
+    alert('Inserisci un numero diverso da quelli già inseriti:');
   }
 }
 console.log(numeriGiocatore);
