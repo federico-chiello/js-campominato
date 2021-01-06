@@ -158,7 +158,7 @@ switch (livello) {
 //     numeroDiVolte++;
 //  }
 //  else if (numeriGiocatore.includes(giocatore)){
-//   // se il numero del giocatore è presente nella lista del pc allora si chiede di riprovare.
+//   // se viene inserito un numero già messo nell'array numeriGiocatore allora si chiede di riprovare.
 //     alert('Numero gia inserito. Riprova!');
 //   }
 //   else if (numeriGiocatore.length == tentativo){
